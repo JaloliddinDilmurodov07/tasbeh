@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   background-image: url(../img/rang.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container {
+    
+    position: relative;
+    margin-top: 50px;
+}
+
+.ekran {
+    margin-left: -20px;
+    position: absolute;
+    margin-top: 79px;
+    left: 90px;
+    width: 165px;
+    height: 56px;
+    background-color: rgb(125, 121, 121);
+    border: none;
+    outline: none;
+    font-size: 55px;
+    text-align: center;
+    caret-color: rgb(228, 228, 228);
+}
+
+.click {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: -185px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(201,200,200);
+    border: none;
+}
+
+.click:active {
+    width: 84.5px;
+    height: 84.5px;
+}
+
+.clear {
+    position: absolute;
+    margin-top: 185px;
+    margin-left: -97px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #ffff;
+    border: none;
+}
+
+.clear:active {
+    width: 22.5px;
+    height: 22.5px;
+}
